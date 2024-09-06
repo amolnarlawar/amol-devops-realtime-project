@@ -1,4 +1,4 @@
-data "aws_ami" "ami" {
+/*data "aws_ami" "ami" {
   most_recent = true
 
   filter {
@@ -8,3 +8,4 @@ data "aws_ami" "ami" {
 
   owners = ["730335596268"]
 }
+*/
