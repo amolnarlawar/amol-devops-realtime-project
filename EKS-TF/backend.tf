@@ -3,7 +3,7 @@ terraform {
     bucket         = "amol-eks-state"
     region         = "us-east-1"
     key            = "terraform.tfstate"
-    dynamodb_table = "Amol-Files"
+    dynamodb_table = "Lock-Files"
     encrypt        = true
   }
   required_version = ">=0.13.0"
