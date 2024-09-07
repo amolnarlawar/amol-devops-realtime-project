@@ -87,7 +87,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'https://github.com/amolnarlawar/amol-devops-realtime-project.git'
+                git branch: 'main' , 'https://github.com/amolnarlawar/amol-devops-realtime-project.git'
             }
         }
         stage('Update Deployment file') {
