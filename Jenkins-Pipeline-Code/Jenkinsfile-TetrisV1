@@ -93,7 +93,7 @@ pipeline {
         stage('Update Deployment file') {
             environment {
                 GIT_REPO_NAME = "amol-devops-realtime-project"
-                GIT_USER_NAME = "amolnarlawar8763@gmail.com"
+                GIT_USER_NAME = "amolnarlawar"
             }
             steps {
                 dir('Manifest-file') {
